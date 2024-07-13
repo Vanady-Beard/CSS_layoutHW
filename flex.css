@@ -1,0 +1,83 @@
+*{
+    background-color: lightblue;
+}
+
+
+
+
+.navbar ul{
+background-color:azure;
+list-style:none;
+display:flex;
+justify-content: space-around;
+padding:10px;
+}
+
+.navbar li{
+    background-color:azure;
+    font-size: 20px;
+    font-family:monospace;
+    
+}
+
+.navbar li:hover{
+    background-color:lightblue;
+    font-weight:bold;
+    padding:5px;
+    color:purple;
+}
+
+.navbar h1{
+    display:flex;
+    justify-content: center;
+}
+
+.information{
+    
+    border:solid 5px purple;
+     display:flex;
+
+}
+aside{
+    border:white 5px dotted ;
+    padding:10px;
+    height:50%;
+}
+h1{
+    color:purple;
+}
+h2{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer ul{
+    display:flex;
+    justify-content:center;
+    background-color:azure;
+    padding:20px;
+    
+    
+    
+}
+footer li{
+  
+  list-style:none;
+  background-color:azure;
+  font-size: 20px;
+  font-family:monospace;
+  padding:15px;
+} 
+footer li:hover{
+    background-color:lightblue;
+    font-weight:bold;
+    color:purple;
+    padding:5px;
+
+}
+
+footer p{
+    display:flex;
+    justify-content:center;
+    color:purple;
+    font-weight: bold;
+}
